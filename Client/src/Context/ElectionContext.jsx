@@ -92,7 +92,7 @@ const ElectionProvider = (children) => {
     console.log(hash);
     const votecount = await ElectionContract.Candidates(1);
     console.log(votecount);
-    // Showresult();
+    Showresult();
   }
 //   On clicking show results
     const Showresult = async()=>{
